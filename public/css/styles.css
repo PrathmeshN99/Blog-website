@@ -1,0 +1,51 @@
+html {
+  min-height: 100%;
+  position: relative;
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    font-family: 'Montserrat';
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+a{
+  margin-right: 30px;
+}
+
+.navbar-nav  li a:hover {
+    color: rgb(34, 34, 34) !important;
+}
+
+.footer-padding {
+  margin-top:150px;
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #FED2AA;
+}
+
+.footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	font-size: 24px;
+  color: #fff;
+}
