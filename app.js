@@ -3,7 +3,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
-
 const homeStartingContent = "A Simple and Minimalist blogging website that you can use to write your thoughts and it can be your daily journal. You can compose new blogs as well as read the existing blogs on this website and the blogs are safely stored in mongoDB database. Here on the blogs commence....";
 
 const app = express();
